@@ -11,9 +11,16 @@ let vidaRival = 100;
 let vida = 100;
 //arrays
 const pokemones = [
-    { id: 1, nombre: 'Bulbasaur', tipo: 'planta, veneno', poder1: 'Placaje', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false },
-    { id: 2, nombre: 'Charmander', tipo: 'fuego', poder1: 'Arañazo', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false },
-    { id: 3, nombre: 'Squirtle', tipo: 'agua', poder1: 'Placaje', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false }
+    { id: 1, nombre: 'Bulbasaur', tipo: 'Planta', poder1: 'Placaje', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 2, nombre: 'Charmander', tipo: 'Fuego', poder1: 'Arañazo', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 3, nombre: 'Squirtle', tipo: 'Agua', poder1: 'Placaje', poder2: 'Gruñido', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 4, nombre: 'Pidgeotto', tipo: 'Volador', poder1: 'Vista Lince', poder2: 'Tumbos', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 5, nombre: 'Metapod', tipo: 'Bicho', poder1: 'Placaje', poder2: 'Picadura', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 6, nombre: 'Rattata', tipo: 'Tierra', poder1: 'Placaje', poder2: 'Ataque Rapido', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 7, nombre: 'Nidorina', tipo: 'Veneno', poder1: 'Mordisco', poder2: 'Picotazo Veneno', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 8, nombre: 'Clefairy', tipo: 'Hada', poder1: 'Cabezazo Zen', poder2: 'Destructor', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 9, nombre: 'Voltorb', tipo: 'Electrico', poder1: 'Placaje', poder2: 'Chispa', danioPoder1: 50, danioPoder2: 40, visto: false },
+    { id: 10, nombre: 'Hypno', tipo: 'agua', poder1: 'Cabezazo Zen', poder2: 'Confunsion', danioPoder1: 50, danioPoder2: 40, visto: false }
 ];
 //funciones
 function elegirPokemon(array) {
